@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    top: 0;
+    height: 80px;
+    background-color: white;
+    width: 100%;
+    border: 2px solid black;
+    position: sticky;
+    z-index: 2;
+}
+
+.lingid {
+    display: flex;
+    flex-direction: row;
+}
+
+.asjad {
+    display: flex;
+    flex-direction: row;
+}
+
+.nupp1 {
+    background-color: blue;
+    border: 1px round blue;
+}
+
+.delfi-logo {
+    height: 100px;
+    width: 100px;
+}
