@@ -17,6 +17,7 @@ header {
 .lingid {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .asjad {
@@ -32,4 +33,17 @@ header {
 .delfi-logo {
     height: 100px;
     width: 100px;
+}
+
+.väike-sec {
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.alumised-asjad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
