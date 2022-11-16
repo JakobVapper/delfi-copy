@@ -16,27 +16,26 @@ header {
 
 .lingid {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
+}
+
+ul {
+    list-style-type: none;  
 }
 
 .asjad {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
-.nupp1 {
-    background-color: blue;
-    border: 1px round blue;
-}
-
-.delfi-logo {
-    height: 100px;
-    width: 100px;
+a {
+    text-decoration: none;
 }
 
 .väike-sec {
     height: 50px;
+    display: grid;
     background-color: white;
     width: 100%;
     border: 2px solid black;
@@ -46,4 +45,26 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.nupud {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pilt-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
