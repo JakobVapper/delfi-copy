@@ -199,6 +199,17 @@ li {
     text-align: center;
 }
 
+.C-button__icon {
+    font-family: var(--font-family-system);
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 30px;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
 .second-pealkiri {
     font-family: var(--font-family-system);
     font-size: 13px;
@@ -208,6 +219,60 @@ li {
 
 div {
     list-style-type: none;
+}
+
+.kriips-luubis {
+    margin: 0;
+    font-family: var(--font-family-secondary);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.teine-rida {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    padding-right: 160px;
+    padding-left: 160px;
+}
+
+.pilt2-size {
+    height: 166px;
+    width: 282px;
+}
+
+.pilt3-size {
+    height: 166px;
+    width: 282px;
+}
+
+.pilt2-text {
+}
+
+.pilt3-text {
+}
+
+.pilt4-size {
+    height: 166px;
+    width: 282px;
+}
+
+.pilt5-size {
+    height: 166px;
+    width: 282px;
+}
+
+.Pilt-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teineasi {
+    display: flex;
+    justify-content: space-between;
 }
 
 :root {
