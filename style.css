@@ -9,6 +9,40 @@
     flex-direction: row;
 }
 
+.ilmateade-logo {
+    font-family: var(--font-family-system);
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--header-menu-top-color);
+    fill: var(--header-menu-top-color);  
+}
+
+.top-header-pealkiri {
+    font-family: var(--font-family-system);
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--header-menu-top-color);
+    fill: var(--header-menu-top-color);
+}
+
+.ilmateade {
+    display: flex;
+    padding-left: 170px;
+}
+
+.top-mid-links {
+    display: flex;
+    justify-content: center;
+    padding-left: 320px;
+}
+
+.top-end-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 150px;
+}
+
 .top-header {
     position: relative;
     z-index: 11000;
@@ -56,6 +90,20 @@ a {
 li {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.li-second-pealkiri {
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.pulk-pärast-login {
+    width: 1px;
+    height: 25px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 35px;
+    background: var(--header-menu-primary-color);
 }
 
 .väike-sec {
@@ -128,11 +176,27 @@ li {
     position: absolute;
     bottom: 8px;
     left: 16px;
+    margin-top: 15px;
+    font-family: var(--font-family-primary);
+    font-weight: var(--h1-lg-font-weight);
+    line-height: var(--h1-lg-line-height);
+    word-break: break-word;
 }
 
 .logo {
     padding-top: 20px;
     padding-left: 175px;
+}
+
+.C-button {
+    font-family: var(--font-family-system);
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 30px;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    text-align: center;
 }
 
 .second-pealkiri {
