@@ -199,12 +199,13 @@ li {
     text-align: center;
 }
 
-.C-button__icon {
+.C-header-actions__button, .C-header-actions__button--search, .C-header-actions__button--search--open {
     font-family: var(--font-family-system);
     font-size: 12px;
     font-weight: 500;
-    border-radius: 30px;
     line-height: 1;
+    border: none;
+    background-color: white;
     display: inline-block;
     position: relative;
     text-align: center;
@@ -235,8 +236,10 @@ div {
     display: flex;
     flex-direction: row;
     height: 300px;
-    padding-right: 160px;
+    width: 100%;
+    background-color: white;
     padding-left: 160px;
+    padding-right: 160px;
 }
 
 .pilt2-size {
@@ -250,9 +253,13 @@ div {
 }
 
 .pilt2-text {
-}
-
-.pilt3-text {
+    margin-top: 15px;
+    font-family: var(--font-family-primary);
+    font-weight: var(--h1-lg-font-weight);
+    line-height: var(--h1-lg-line-height);
+    word-break: break-word;
+    color: var(--color-text-1);
+    transition: color .15s;
 }
 
 .pilt4-size {
@@ -268,11 +275,59 @@ div {
 .Pilt-2 {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+}
+
+.Pilt-22 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .teineasi {
     display: flex;
     justify-content: space-between;
+}
+
+.pilt_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kolmas-rida {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.Pilt-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.pilt_3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pilt6-size {
+    height: 209px;
+    width: 384px;
+}
+
+.pilt3-text {
+    margin-top: 15px;
+    font-family: var(--font-family-primary);
+    font-weight: var(--h1-lg-font-weight);
+    line-height: var(--h1-lg-line-height);
+    word-break: break-word;
+    color: var(--color-text-1);
+    transition: color .15s;
 }
 
 :root {
