@@ -300,7 +300,7 @@ div {
     height: 300px;
     width: 100%;
     background-color: white;
-    padding-left: 160px;
+    padding-left: 175px;
     padding-right: 160px;
 }
 
@@ -328,6 +328,25 @@ div {
     word-break: break-word;
     color: var(--color-text-1);
     transition: color .15s;
+}
+
+.pilt7-size {
+    height: 209px;
+    width: 384px;
+}
+
+.pilt8-size {
+    height: 209px;
+    width: 384px;
+}
+
+.p333 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pilt8-full {
+    padding-left: 10px;
 }
 
 :root {
