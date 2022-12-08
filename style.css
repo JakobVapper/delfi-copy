@@ -100,8 +100,8 @@ li {
 .pulk-pärast-login {
     width: 1px;
     height: 25px;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
     padding-bottom: 35px;
     background: var(--header-menu-primary-color);
 }
@@ -112,7 +112,6 @@ li {
     display: grid;
     background-color: white;
     width: 80%;
-    border-top: solid 1px var(--header-menu-top-color);
     padding-left: 175px;
 
 }
@@ -120,6 +119,7 @@ li {
 .alumised-asjad {
     display: flex;
     flex-direction: row;
+    border-top: solid 1px var(--header-menu-top-color);
 }
 
 .nupud {
@@ -232,121 +232,82 @@ div {
     text-align: left;
 }
 
-.teine-rida {
-    display: flex;
-    flex-direction: row;
-    height: 300px;
-    width: 100%;
-    background-color: white;
-    padding-left: 160px;
-    padding-right: 160px;
-}
-
-.pilt2-size {
-    height: 166px;
-    width: 282px;
-}
-
-.pilt3-size {
-    height: 166px;
-    width: 282px;
-}
-
-.pilt2-text {
-    margin-top: 15px;
-    font-family: var(--font-family-primary);
-    font-weight: var(--h1-lg-font-weight);
-    line-height: var(--h1-lg-line-height);
-    word-break: break-word;
-    color: var(--color-text-1);
-    transition: color .15s;
-}
-
-.pilt4-size {
-    height: 166px;
-    width: 282px;
-}
-
-.pilt5-size {
-    height: 166px;
-    width: 282px;
-}
-
-.Pilt-2 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.Pilt-22 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
 .teineasi {
     display: flex;
     justify-content: space-between;
 }
 
-.pilt_2 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.kolmas-rida {
+.pildid-1 {
     display: flex;
     flex-direction: row;
-    height: 300px;
-    width: 100%;
-    background-color: white;
-    padding-left: 175px;
-    padding-right: 160px;
+    justify-content: space-around;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 20px;
 }
 
-.Pilt-3 {
+.suur-pilt {
+    width: 588px;
+    height: 313.93px;
+}
+
+.suur-text {
+    font-size: 22px;
+    font-family: var(--font-family-primary);
+    font-weight: var(--h1-lg-font-weight);
+    line-height: var(--h1-lg-line-height);
+    word-break: break-word;
+    color:  var(--color-text-1);
+    text-align: justify;
+    width: 588px;
+}
+
+.pildid-2 {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 20px;
 }
 
-.pilt_3 {
-    display: flex;
-    justify-content: flex-start;
+.väike-pilt {
+    width: 282px;
+    height: 166.18px;
 }
 
-.pilt6-size {
-    height: 209px;
-    width: 384px;
-}
-
-.pilt3-text {
-    margin-top: 15px;
+.väike-text {
+    font-size: 17px;
     font-family: var(--font-family-primary);
     font-weight: var(--h1-lg-font-weight);
     line-height: var(--h1-lg-line-height);
     word-break: break-word;
     color: var(--color-text-1);
-    transition: color .15s;
+    width: 282px;
 }
 
-.pilt7-size {
-    height: 209px;
-    width: 384px;
-}
-
-.pilt8-size {
-    height: 209px;
-    width: 384px;
-}
-
-.p333 {
+.pildid-3 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 20px;
 }
 
-.pilt8-full {
-    padding-left: 10px;
+.keskmine-pilt {
+    width: 383.99px;
+    height: 209.44px;
+}
+
+.keskmine-text {
+    font-size: 17px;
+    font-family: var(--font-family-primary);
+    font-weight: var(--h1-lg-font-weight);
+    line-height: var(--h1-lg-line-height);
+    word-break: break-word;
+    color: var(--color-text-1);
+    width: 383.99px;
 }
 
 :root {
